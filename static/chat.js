@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const messagesDiv = document.getElementById("messages");
     
     // Add naming prompt initially
-    messagesDiv.innerHTML = `<div class="naming-prompt">I am neither dino🦕 nor pineapple🍍</div>`;
+    messagesDiv.innerHTML = `<div class="naming-prompt">Give me a name!</div>`;
     
     // Enter key support
     input.addEventListener("keypress", function(event) {
